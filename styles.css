@@ -48,23 +48,24 @@ nav ul li a:hover {
 .mentor-card {
     margin: 10px;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #ccc;
     text-align: center;
+    width: 200px;
 }
 
-.mentor-card img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+#contact form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
 }
 
-.profile-link {
-    display: block;
-    margin-top: 10px;
-    color: #007BFF;
-    text-decoration: none;
-}
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
 
-.profile-link:hover {
-    text-decoration: underline;
+    .mentor-card {
+        width: 100%;
+    }
 }
