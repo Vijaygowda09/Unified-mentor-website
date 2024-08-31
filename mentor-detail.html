@@ -3,29 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mentor Details</title>
-    <link rel="stylesheet" href="styless.css">
+    <title>Mentor Detail - Unified Mentor</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Mentor Details -->
-    <section class="mentor-detail">
-        <img src="mentor1.jpg" alt="Mentor Photo">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="mentors.html">Mentors</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="mentor-detail">
         <h2>John Doe</h2>
-        <p>Web Development Expert</p>
-        <h3>Biography</h3>
-        <p>John has over 10 years of experience in web development...</p>
-        <h3>Areas of Expertise</h3>
-        <p>HTML, CSS, JavaScript, React</p>
-        <h3>Contact Information</h3>
-        <form action="submit-form.php" method="POST">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Contact Mentor</button>
+        <img src="mentor1.jpg" alt="John Doe">
+        <p>Biography: Experienced Web Developer with 10 years in the industry.</p>
+        <p>Expertise: HTML, CSS, JavaScript, React, Node.js</p>
+        <form action="schedule.html">
+            <button type="submit">Schedule a Meeting</button>
         </form>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>
