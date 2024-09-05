@@ -1,3 +1,4 @@
+/* Base Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -85,4 +86,67 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+/* Mentor Card Styles */
+.mentor-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.mentor-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mentor-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.mentor-card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.mentor-card p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.mentor-card a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #hero h1 {
+        font-size: 36px;
+    }
+
+    #hero p {
+        font-size: 18px;
+    }
+
+    .mentor-grid {
+        grid-template-columns: 1fr;
+    }
+
+    footer {
+        padding: 20px 0;
+    }
 }
