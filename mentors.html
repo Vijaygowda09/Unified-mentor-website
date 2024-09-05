@@ -3,34 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mentors - Unified Mentor</title>
+    <title>Mentors | Unified Mentor</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="mentors.html">Mentors</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    <section id="mentor-grid">
-        <h2>Our Mentors</h2>
-        <div class="mentor-card">
-            <img src="mentor.jpg" alt="John Doe">
-            <h3>John Doe</h3>
-            <p>Expert in Web Development</p>
-            <a href="mentor-detail.html?id=1" class="profile-link">View Profile</a>
-        </div>
-        <div class="mentor-card">
-            <img src="mentor.jpg" alt="Jane Smith">
-            <h3>Jane Smith</h3>
-            <p>Expert in Data Science</p>
-            <a href="mentor-detail.html?id=2" class="profile-link">View Profile</a>
-        </div>
-        <!-- Add more mentor cards as needed -->
-    </section>
-    <script src="script.js"></script>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="mentors.html">Mentors</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="mentor-list">
+            <h2>Our Mentors</h2>
+            <div class="mentor-card">
+                <img src="mentor1.jpg" alt="Mentor 1">
+                <h3>John Doe</h3>
+                <p>Expert in Web Development</p>
+                <a href="mentor-detail.html?id=1" class="more-info">View Profile</a>
+            </div>
+            <div class="mentor-card">
+                <img src="mentor2.jpg" alt="Mentor 2">
+                <h3>Jane Smith</h3>
+                <p>Expert in Data Science</p>
+                <a href="mentor-detail.html?id=2" class="more-info">View Profile</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Unified Mentor. All rights reserved.</p>
+    </footer>
 </body>
 </html>
