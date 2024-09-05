@@ -3,27 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mentor Detail - Unified Mentor</title>
+    <title>Mentor Detail | Unified Mentor</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="mentors.html">Mentors</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    <section id="mentor-detail">
-        <h2>John Doe</h2>
-        <img src="mentor1.jpg" alt="John Doe">
-        <p>Biography: John Doe is a seasoned web developer with over 10 years of experience in the industry.</p>
-        <p>Expertise: HTML, CSS, JavaScript, React, Node.js</p>
-        <form action="schedule.html">
-            <button type="submit">Schedule a Meeting</button>
-        </form>
-    </section>
-    <script src="script.js"></script>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="mentors.html">Mentors</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="mentor-detail">
+            <img src="mentor1.jpg" alt="John Doe">
+            <h2>John Doe</h2>
+            <p><strong>Expertise:</strong> Web Development</p>
+            <p><strong>Bio:</strong> John Doe is a seasoned web developer with over 10 years of experience...</p>
+            <p><strong>Contact:</strong> johndoe@example.com</p>
+            <h3>Schedule a Meeting</h3>
+            <form action="#" method="post">
+                <label for="meeting-date">Preferred Date:</label>
+                <input type="date" id="meeting-date" name="meeting-date" required>
+                <input type="submit" value="Schedule">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Unified Mentor. All rights reserved.</p>
+    </footer>
 </body>
 </html>
