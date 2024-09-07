@@ -1,22 +1,20 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #fffaf0;
-    color: #333;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
 }
 
 header {
     background-color: #b22222;
-    color: #fff;
     padding: 10px;
     text-align: center;
 }
 
 nav ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
     display: flex;
     justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li {
@@ -24,46 +22,48 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
 section#mentor-detail {
     text-align: center;
-    padding: 50px 0;
+    padding: 50px 20px;
 }
 
 section#mentor-detail img {
-    width: 150px;
     border-radius: 50%;
+    width: 150px;
+    height: 150px;
     margin-bottom: 20px;
 }
 
 section#mentor-detail h2 {
+    font-size: 2em;
     margin-bottom: 10px;
-    color: #b22222;
 }
 
 section#mentor-detail p {
+    font-size: 1.2em;
     margin-bottom: 20px;
 }
 
 section#mentor-detail button {
     padding: 10px 20px;
-    background-color: #b22222;
-    color: #fff;
+    background-color: #0056b3;
+    color: white;
     border: none;
     cursor: pointer;
-    font-size: 16px;
+}
+
+section#mentor-detail button:hover {
+    background-color: #004494;
 }
 
 footer {
     background-color: #b22222;
-    color: #fff;
+    color: white;
     text-align: center;
     padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
